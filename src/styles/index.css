@@ -1,0 +1,13 @@
+.parent {
+    border: 1px solid lawngreen;
+}
+
+.app{
+    margin: 10px;
+    border: 1px solid blue;
+}
+.parent, .app{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+}
