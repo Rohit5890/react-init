@@ -27,7 +27,7 @@ module.exports = {
     plugins:[
         new htmlWebpackPlugin({
             hash:true,
-            myPageTitle:"My Contacts",
+            myPageTitle:"react-init",
             template:path.join(__dirname,'./index.html'),
             filename:path.join(__dirname,'./dist/index.html')
         })
